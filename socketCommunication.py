@@ -1,16 +1,11 @@
 import socket
+from globalvariables import *
 import sys
 import time
 import threading
 
-HEADER = 64
-FORMAT = 'utf-8'
-host = ''
-port = 5678
-server = socket.gethostbyname(socket.gethostname())
-
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print("Socket successfully created. Server IP: ", server)
+print(f"Socket successfully created. Server IP: {server}")
 
 s.bind((server, port))
 
@@ -23,7 +18,7 @@ def sendMessage(conn, addr, msg):
     conn.send(message)
 
 def handleClient(conn, addr):
-    print("New connection at: ", addr)
+    print(f"New connection at: {addr}")
 
     connected = True
     while connected:
