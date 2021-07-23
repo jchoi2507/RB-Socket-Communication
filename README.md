@@ -5,8 +5,8 @@
 - Subnet mask: 255.255.0.0
 - Port: 5678
 
-## Client-side settings (RB Interface)
-- Setup Information
+## Client-side settings (RB Tablet)
+- Setup Information (in SETUP)
   - IP: 169.254.144.10
   - Netmask: 255.255.0.0
   - Gateway: 169.254.0.1
