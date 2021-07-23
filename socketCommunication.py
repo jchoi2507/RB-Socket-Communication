@@ -8,6 +8,7 @@ import threading
 
 #Creating a socket communication
 def createSocket():
+    print (50 * "-")
     print(f"Socket successfully created. Server IP: {g.server}")
     g.s.bind((g.server, g.port))
 
