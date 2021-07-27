@@ -14,3 +14,11 @@
 - Socket Information (in MAKE)
   - IP: 169.254.144.13
   - Port: 5678
+
+## 우일님 settings
+- Setup Information (in SETUP)
+  - Same as above
+
+- Setup Information (in MAKE)
+  - IP: 169.254.144.29
+  - Port: 5678
