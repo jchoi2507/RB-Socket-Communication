@@ -3,7 +3,7 @@ import sys
 import os
 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host="127.0.0.1"))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host="hostIP"))
     channel = connection.channel()
 
     channel.queue_declare(queue="hello")
