@@ -2,7 +2,7 @@ import pika
 import sys
 
 #Establishing connection
-connection = pika.BlockingConnection(pika.ConnectionParameters("127.0.0.1")) #Change localhost to different name or IP
+connection = pika.BlockingConnection(pika.ConnectionParameters("hostIP")) #Change localhost to different name or IP
 channel = connection.channel()                                               #to connect to different machines
 
 #Obtaining desired message to send
